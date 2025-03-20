@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/titulo.uss?fileID=7433441132597879392&amp;guid=6be715c52334e5d45828e71a3e470863&amp;type=3#titulo" />
+    <ui:VisualElement name="MenuContainer" style="flex-grow: 1;">
+        <ui:Label text="Tarea Unity" name="Label" class="titulo" style="background-color: rgba(0, 0, 0, 0);" />
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Button text="Jugar" name="Button" class="botones boton1" style="background-color: rgba(255, 255, 255, 0);" />
+            <ui:Button text="Ayuda" class="boton2 botones" style="top: 200px; background-color: rgba(188, 188, 188, 0);" />
+            <ui:Button text="Créditos" class="botones boton3" style="top: 300px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

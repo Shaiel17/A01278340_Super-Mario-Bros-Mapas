@@ -1,0 +1,96 @@
+/* Estilo para el título */
+.titulo {
+    font-size: 72px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Contenedor de botones */
+.botones {
+    justify-content: flex-start;
+    top: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* Botón 1 */
+.boton1 {
+    top: 100px;
+    width: 400px;
+    height: 150px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    justify-content: flex-start;
+    align-self: center;
+    background-image: url("project://database/Assets/Buttons/PNG/15Button_Long_Yellow.png?fileID=21300000&guid=89bbc17355dc0064aae767e8f31a93aa&type=3#15Button_Long_Yellow");
+    -unity-font-style: bold;
+    font-size: 55px;
+    -unity-text-align: middle-center;
+    -unity-paragraph-spacing: 0;
+    color: rgb(255, 255, 255);
+
+    /* Animación de agrandado con transición */
+    transition: width 0.3s ease, height 0.3s ease;  /* Transición para el tamaño */
+}
+
+.boton1:hover {
+    width: 440px;   /* Nuevo tamaño */
+    height: 165px;  /* Nuevo tamaño */
+}
+
+/* Botón 2 */
+.boton2 {
+    top: 300px;
+    width: 400px;
+    height: 150px;
+    align-self: center;
+    background-image: url("project://database/Assets/Buttons/PNG/15Button_Long_Yellow.png?fileID=21300000&guid=89bbc17355dc0064aae767e8f31a93aa&type=3#15Button_Long_Yellow");
+    font-size: 55px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+
+    /* Animación de agrandado con transición */
+    transition: width 0.3s ease, height 0.3s ease;  /* Transición para el tamaño */
+}
+
+.boton2:hover {
+    width: 440px;   /* Nuevo tamaño */
+    height: 165px;  /* Nuevo tamaño */
+}
+
+/* Botón 3 */
+.boton3 {
+    top: 500px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 400px;
+    height: 150px;
+    align-self: center;
+    background-image: url("project://database/Assets/Buttons/PNG/15Button_Long_Yellow.png?fileID=21300000&guid=89bbc17355dc0064aae767e8f31a93aa&type=3#15Button_Long_Yellow");
+    background-color: rgba(55, 55, 55, 0);
+    font-size: 55px;
+    -unity-font-style: bold;
+    -unity-text-outline-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+
+    /* Animación de agrandado con transición */
+    transition: width 0.3s ease, height 0.3s ease;  /* Transición para el tamaño */
+}
+
+.boton3:hover {
+    width: 440px;   /* Nuevo tamaño */
+    height: 165px;  /* Nuevo tamaño */
+}
